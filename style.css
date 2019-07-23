@@ -1,0 +1,19 @@
+
+body{
+    background-color: blueviolet;
+}
+.dropdown{
+    align-content: flex-end;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 250px;
+    width: 250px;
+}
+.container{
+    padding-top: 25px;
+    padding-left: 150px;
+    image-orientation: center;
+}

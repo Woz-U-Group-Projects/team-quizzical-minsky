@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--BOOTSTRAP LINK-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!--END BOOTSTRAP LINK-->
+    <link rel="stylesheet" href="rps.css">
+
+    <title>Rock/Paper/Scissors</title>
+</head>
+
+<body>
+    <div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Menu
+
+        </button>
+        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton">
+            <h3 class="dropdown-header">Game Choices</h3>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="file:///C:/Users/xBaug/OneDrive/Desktop/Final%20Project/ttt.html"><button
+                    type="button" class="btn btn-secondary" id="game1">Tic-Tac-Toe</button></a>
+            <div class="dropdown-divider"></div>
+            <h3 class="dropdown-header">Homepage</h3>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="file:///C:/Users/xBaug/OneDrive/Desktop/Final%20Project/index.html"><button
+                    type="button" class="btn btn-secondary" id="game2">Home</button></a>
+        </div>
+    </div>
+    <div class="container" id="headings">
+        <h1>Rock - Paper - Scissors!</h1>
+        <h4>The game is played where players deliver hand signals that will represent the elements of the game.</h4>
+        <h3>Rules of<br>Rock - Paper - Scissors</h3>
+    </div>
+    <div class="container" id="ruleslist">
+        <ol>
+            <li>Rock wins against scissors. </li>
+            <li>Scissors win against paper. </li>
+            <li>Paper wins against rock.</li>
+        </ol>
+    </div>
+    <div>
+        <header>
+            <h1>Rock - Paper - Scissors</h1>
+        </header>
+    </div>
+    <div class="score-board">
+        <div id="user-tag" class="label">user</div>
+        <div id="computer-tag" class="label">comp</div>
+        <span id="user-score">0</span>:<span id="computer-score">0</span>
+    </div>
+        <div class="results">
+            <p>Paper covers rock. You Win!</p>
+        </div>
+        <div class="choices">
+            <div class="choice" id="r">
+                <img src="photos/rock.png" alt="">
+            </div>
+            <div class="choice" id="p">
+                <img src="photos/paper.png" alt="">
+            </div>
+            <div class="choice" id="s">
+                <img src="photos/Scissors.png" alt="">
+            </div>
+        </div>
+
+        <div>
+            <p id="action-message">Make a move</p>
+        </div>
+    <!--GAME CODE GOES HERE-->
+    <!--BOOTSTRAP SCRIPTS-->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <!--END OF BOOTSTRAP SCRIPTS-->
+    <script src="rps.js"></script>
+</body>
+
+</html>
