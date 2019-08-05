@@ -2,9 +2,12 @@
 body{
     background-color: blueviolet;
 }
-.dropdown{
-    align-content: flex-end;
+
+h1, h3 {
+    text-align: center;
+    text-decoration: underline;
 }
+
 .center {
     display: block;
     margin-left: auto;
@@ -12,6 +15,7 @@ body{
     height: 250px;
     width: 250px;
 }
+
 .container{
     padding-top: 25px;
     padding-left: 150px;
