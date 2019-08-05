@@ -29,12 +29,14 @@ function convertWord(letter) {
 }
 //resets the scores back to zero
 function resetScores() {
+    //Sets the userscore back to 0
     userScore = 0;
     userScore_span.innerHTML = userScore;
+    //Sets the computer score back to zero
     computerScore = 0;
     computerScore_span.innerHTML = computerScore;
+    //Changes the text on the screen to let you know the game has been reset
     results_p.innerHTML = "The scores have been reset. Play Again!";
-
 }
 
 //When the user wins.
