@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\xBaug\\OneDrive\\Desktop\\Projects\\NTG\\NTG.csproj": {}
+    "C:\\Users\\AmmonKing\\Desktop\\Group_Projects\\team-quizzical-minsky\\NTG.csproj": {}
   },
   "projects": {
-    "C:\\Users\\xBaug\\OneDrive\\Desktop\\Projects\\NTG\\NTG.csproj": {
+    "C:\\Users\\AmmonKing\\Desktop\\Group_Projects\\team-quizzical-minsky\\NTG.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\xBaug\\OneDrive\\Desktop\\Projects\\NTG\\NTG.csproj",
+        "projectUniqueName": "C:\\Users\\AmmonKing\\Desktop\\Group_Projects\\team-quizzical-minsky\\NTG.csproj",
         "projectName": "NTG",
-        "projectPath": "C:\\Users\\xBaug\\OneDrive\\Desktop\\Projects\\NTG\\NTG.csproj",
-        "packagesPath": "C:\\Users\\xBaug\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\xBaug\\OneDrive\\Desktop\\Projects\\NTG\\obj\\",
+        "projectPath": "C:\\Users\\AmmonKing\\Desktop\\Group_Projects\\team-quizzical-minsky\\NTG.csproj",
+        "packagesPath": "C:\\Users\\AmmonKing\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\AmmonKing\\Desktop\\Group_Projects\\team-quizzical-minsky\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\xBaug\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\AmmonKing\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.2"
@@ -50,11 +50,19 @@
               "target": "Package",
               "version": "[2.2.0, )"
             },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[2.2.6, )"
+            },
             "Microsoft.NETCore.App": {
               "suppressParent": "All",
               "target": "Package",
               "version": "[2.2.0, )",
               "autoReferenced": true
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[2.2.3, )"
             }
           },
           "imports": [
