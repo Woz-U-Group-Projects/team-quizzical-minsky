@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\AmmonKing\\Desktop\\Group_Projects\\team-quizzical-minsky\\NTG.csproj": {}
+    "C:\\Users\\xBaug\\OneDrive\\Desktop\\Projects\\NTG\\NTG.csproj": {}
   },
   "projects": {
-    "C:\\Users\\AmmonKing\\Desktop\\Group_Projects\\team-quizzical-minsky\\NTG.csproj": {
+    "C:\\Users\\xBaug\\OneDrive\\Desktop\\Projects\\NTG\\NTG.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\AmmonKing\\Desktop\\Group_Projects\\team-quizzical-minsky\\NTG.csproj",
+        "projectUniqueName": "C:\\Users\\xBaug\\OneDrive\\Desktop\\Projects\\NTG\\NTG.csproj",
         "projectName": "NTG",
-        "projectPath": "C:\\Users\\AmmonKing\\Desktop\\Group_Projects\\team-quizzical-minsky\\NTG.csproj",
-        "packagesPath": "C:\\Users\\AmmonKing\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\AmmonKing\\Desktop\\Group_Projects\\team-quizzical-minsky\\obj\\",
+        "projectPath": "C:\\Users\\xBaug\\OneDrive\\Desktop\\Projects\\NTG\\NTG.csproj",
+        "packagesPath": "C:\\Users\\xBaug\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\xBaug\\OneDrive\\Desktop\\Projects\\NTG\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\AmmonKing\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\xBaug\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.2"
